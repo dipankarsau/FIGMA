@@ -1,0 +1,113 @@
+ /* Top bar */
+ .top_bar {
+     width: 100%;
+     height: 42px;
+     background-color: #102451;
+ }
+
+
+ .top_bar ul li img {
+     width: 15px;
+     height: 15.5px;
+ }
+
+ .list_item p {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     font-size: 11px;
+     line-height: 150%;
+     letter-spacing: 0;
+     text-transform: uppercase;
+     color: #FFFFFF;
+ }
+
+ ul {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     height: 42px;
+
+     gap: 6px;
+
+ }
+
+ li {
+     .list_item {
+         display: flex;
+         align-items: center;
+         gap: 8px;
+
+     }
+ }
+
+ /* end of top bar section */
+
+ /* navigation bar */
+ .navigation_bar {
+     width: 100%;
+     height: 106px;
+     background-color: #FFFFFF;
+     border: 1px solid red;
+
+ }
+
+ .rehub_directory img {
+     width: 211px;
+     height: 56px;
+ }
+
+ .rehub_directory {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 106px;
+       
+ }
+
+ .rehub_directory p {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 150%;
+     letter-spacing: 1.4px;
+     text-transform: uppercase;
+     
+     
+ }
+
+ .rehub_directory {
+     .phone_bar {
+         width: 276px;
+         height: 58px;
+         border: 1px solid red;
+         display: flex;
+         align-items: center;
+
+         a img {
+             width: 24px;
+             height: 24px;
+             color: red;
+         }
+
+         .phone {
+             display: flex;
+             gap: 13px;
+             padding: 20px;
+         }
+
+         .tele_phone {
+             width: 159px;
+             height: 24px;
+         }
+     }
+ }
+
+ .rehub_directory ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* end section of navigation bar */
