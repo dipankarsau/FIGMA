@@ -84,6 +84,7 @@
          border: 1px solid red;
          display: flex;
          align-items: center;
+        /* justify-content: flex-end; */
 
          a img {
              width: 24px;
@@ -111,3 +112,102 @@
 
 
 /* end section of navigation bar */
+
+
+/* Banner section */
+
+.rehab-finder{
+    width: 1920px;
+    height: 920px;
+    background-image: url(../ASSEST/IMAGES/Banner\ \(2\).png);
+    position: relative;
+
+
+}
+.rehab-heading p{
+    font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 0;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.rehab-heading h4{
+    font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 28px;
+line-height: 150%;
+letter-spacing: 0;
+text-align: center;
+text-transform: capitalize;
+color:#FFFFFF ;
+text-align: center;
+
+}
+
+.state-directory{
+    width: 919px;
+    height: 129px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+}
+.rehab-heading{
+  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.state-directory{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+.state-directory p{
+    font-family: Montserrat;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0;
+text-transform: capitalize;
+padding: 20px;
+}
+.state-directory h4{
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0;
+text-transform: capitalize;
+padding: 0px 20px 
+}
+.search-button{
+    width: 211px;
+    height: 81px;
+    border-radius: 5px;
+    background-color: #D45352;
+   position: absolute;
+    right: 0;
+    top: 25px;
+   transform: translate(-50px);   
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  
+}
+.search-button p{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 10%;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+}
